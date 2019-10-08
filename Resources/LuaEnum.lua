@@ -1,13 +1,92 @@
 Enum = {
+	AuctionHouseCommoditySortOrder = {
+		UnitPrice = 0,
+		Quantity = 1,
+	},
+	AuctionHouseCommoditySortOrderMeta = {
+		MinValue = 0,
+		MaxValue = 1,
+		NumValues = 2,
+	},
+	AuctionHouseFilter = {
+		UncollectedOnly = 0,
+		UsableOnly = 1,
+		UpgradesOnly = 2,
+		ExactMatch = 3,
+		PoorQuality = 4,
+		CommonQuality = 5,
+		UncommonQuality = 6,
+		RareQuality = 7,
+		EpicQuality = 8,
+		LegendaryQuality = 9,
+		ArtifactQuality = 10,
+	},
+	AuctionHouseFilterCategory = {
+		Uncategorized = 0,
+		Equipment = 1,
+		Rarity = 2,
+	},
+	AuctionHouseFilterCategoryMeta = {
+		MinValue = 0,
+		MaxValue = 2,
+		NumValues = 3,
+	},
+	AuctionHouseFilterMeta = {
+		MinValue = 0,
+		MaxValue = 10,
+		NumValues = 11,
+	},
+	AuctionHouseItemSortOrder = {
+		Bid = 0,
+		Buyout = 1,
+	},
+	AuctionHouseItemSortOrderMeta = {
+		MinValue = 0,
+		MaxValue = 1,
+		NumValues = 2,
+	},
+	AuctionHouseSortOrder = {
+		Price = 0,
+		Name = 1,
+		Level = 2,
+		Bid = 3,
+		Buyout = 4,
+	},
+	AuctionHouseSortOrderMeta = {
+		MinValue = 0,
+		MaxValue = 4,
+		NumValues = 5,
+	},
+	AuctionHouseTimeLeftBand = {
+		Short = 0,
+		Medium = 1,
+		Long = 2,
+		VeryLong = 3,
+	},
+	AuctionHouseTimeLeftBandMeta = {
+		MinValue = 0,
+		MaxValue = 3,
+		NumValues = 4,
+	},
+	AuctionStatus = {
+		Active = 0,
+		Sold = 1,
+	},
+	AuctionStatusMeta = {
+		MinValue = 0,
+		MaxValue = 1,
+		NumValues = 2,
+	},
 	AzeriteEssence = {
 		MainSlot = 0,
 		PassiveOneSlot = 1,
 		PassiveTwoSlot = 2,
+		PassiveThreeSlot = 3,
 	},
 	AzeriteEssenceMeta = {
 		MinValue = 0,
-		MaxValue = 2,
-		NumValues = 3,
+		MaxValue = 3,
+		NumValues = 4,
 	},
 	AzeritePowerLevel = {
 		Base = 0,
@@ -289,6 +368,15 @@ Enum = {
 		MinValue = 0,
 		MaxValue = 6,
 		NumValues = 7,
+	},
+	CaptureBarWidgetFillDirectionType = {
+		RightToLeft = 0,
+		LeftToRight = 1,
+	},
+	CaptureBarWidgetFillDirectionTypeMeta = {
+		MinValue = 0,
+		MaxValue = 1,
+		NumValues = 2,
 	},
 	CaptureBarWidgetGlowAnimType = {
 		None = 0,
@@ -685,6 +773,25 @@ Enum = {
 		MaxValue = 2,
 		NumValues = 3,
 	},
+	GarrTalentTreeType = {
+		Tiers = 0,
+		Classic = 1,
+	},
+	GarrTalentTreeTypeMeta = {
+		MinValue = 0,
+		MaxValue = 1,
+		NumValues = 2,
+	},
+	GarrTalentType = {
+		Standard = 0,
+		Minor = 1,
+		Major = 2,
+	},
+	GarrTalentTypeMeta = {
+		MinValue = 0,
+		MaxValue = 2,
+		NumValues = 3,
+	},
 	IconAndTextWidgetState = {
 		Hidden = 0,
 		Shown = 1,
@@ -741,6 +848,16 @@ Enum = {
 		MinValue = 0,
 		MaxValue = 28,
 		NumValues = 29,
+	},
+	ItemCommodityStatus = {
+		Unknown = 0,
+		Item = 1,
+		Commodity = 2,
+	},
+	ItemCommodityStatusMeta = {
+		MinValue = 0,
+		MaxValue = 2,
+		NumValues = 3,
 	},
 	ItemQuality = {
 		Poor = 0,
@@ -818,11 +935,12 @@ Enum = {
 		AzeritePowers = 14,
 		AzeriteRewardGlow = 15,
 		HeartOfAzeroth = 16,
+		WorldMapThreat = 17,
 	},
 	ModelSceneTypeMeta = {
 		MinValue = 0,
-		MaxValue = 16,
-		NumValues = 17,
+		MaxValue = 17,
+		NumValues = 18,
 	},
 	PartyRequestJoinRelation = {
 		None = 0,
@@ -1241,6 +1359,14 @@ Enum = {
 		MaxValue = 17,
 		NumValues = 18,
 	},
+	UiwIdgetFlag = {
+		UniversalWidget = 1,
+	},
+	UiwIdgetFlagMeta = {
+		NumValues = 1,
+		MinValue = 1,
+		MaxValue = 1,
+	},
 	ValidateNameResult = {
 		NameSuccess = 0,
 		NameFailure = 1,
@@ -1535,10 +1661,10 @@ LE_EXPANSION_WRATH_OF_THE_LICH_KING = 2
 LE_EXPANSION_CATACLYSM = 3
 LE_EXPANSION_MISTS_OF_PANDARIA = 4
 LE_EXPANSION_WARLORDS_OF_DRAENOR = 5
-LE_EXPANSION_LEVEL_PREVIOUS = 6
 LE_EXPANSION_LEGION = 6
-LE_EXPANSION_LEVEL_CURRENT = 7
+LE_EXPANSION_LEVEL_PREVIOUS = 6
 LE_EXPANSION_BATTLE_FOR_AZEROTH = 7
+LE_EXPANSION_LEVEL_CURRENT = 7
 LE_EXPANSION_9_0 = 8
 LE_EXPANSION_10_0 = 9
 LE_EXPANSION_11_0 = 10
@@ -1571,7 +1697,7 @@ LE_FOLLOWER_TYPE_SHIPYARD_6_2 = 2
 LE_FOLLOWER_TYPE_GARRISON_7_0 = 4
 LE_FOLLOWER_TYPE_GARRISON_8_0 = 22
 
-NUM_LE_FRAME_TUTORIALS = 74
+NUM_LE_FRAME_TUTORIALS = 75
 LE_FRAME_TUTORIAL_TALENT = 1
 LE_FRAME_TUTORIAL_SPEC = 2
 LE_FRAME_TUTORIAL_GLYPH = 3
@@ -1646,6 +1772,7 @@ LE_FRAME_TUTORIAL_CLUB_FINDER_NEW_COMMUNITY_LEADER = 71
 LE_FRAME_TUTORIAL_CLUB_FINDER_NEW_APPLICANTS_GUILD_LEADER = 72
 LE_FRAME_TUTORIAL_CLUB_FINDER_LINKING = 73
 LE_FRAME_TUTORIAL_PVP_SPECIAL_EVENT = 74
+LE_FRAME_TUTORIAL_WORLD_MAP_THREAT_ICON = 75
 
 NUM_LE_FRAME_TUTORIAL_ACCCOUNTS = 2
 LE_FRAME_TUTORIAL_ACCCOUNT_RAF_INTRO = 1
@@ -1927,7 +2054,7 @@ LE_QUEST_FREQUENCY_DEFAULT = 1
 LE_QUEST_FREQUENCY_DAILY = 2
 LE_QUEST_FREQUENCY_WEEKLY = 3
 
-NUM_LE_QUEST_TAG_TYPES = 14
+NUM_LE_QUEST_TAG_TYPES = 15
 LE_QUEST_TAG_TYPE_TAG = 0
 LE_QUEST_TAG_TYPE_PROFESSION = 1
 LE_QUEST_TAG_TYPE_NORMAL = 2
@@ -1940,6 +2067,7 @@ LE_QUEST_TAG_TYPE_RAID = 8
 LE_QUEST_TAG_TYPE_INVASION_WRAPPER = 11
 LE_QUEST_TAG_TYPE_FACTION_ASSAULT = 12
 LE_QUEST_TAG_TYPE_ISLANDS = 13
+LE_QUEST_TAG_TYPE_THREAT = 14
 
 NUM_LE_REALM_RELATIONS = 3
 LE_REALM_RELATION_SAME = 1
