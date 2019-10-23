@@ -1527,11 +1527,12 @@ Enum = {
 		OrderHall = 1,
 		Argus = 2,
 		WarEffort = 3,
+		Visions = 4,
 	},
 	ZoneAbilityTypeMeta = {
 		MinValue = 0,
-		MaxValue = 3,
-		NumValues = 4,
+		MaxValue = 4,
+		NumValues = 5,
 	},
 	ZoneControlActiveState = {
 		Inactive = 0,
