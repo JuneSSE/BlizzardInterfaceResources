@@ -508,6 +508,22 @@ Enum = {
 		MaxValue = 3,
 		NumValues = 4,
 	},
+	ClubFinderClubPostingStatusFlags = {
+		None = 0,
+		NeedsCacheUpdate = 1,
+		ForceDescriptionChange = 2,
+		ForceNameChange = 3,
+		UnderReview = 4,
+		Banned = 5,
+		FakePost = 6,
+		PendingDelete = 7,
+		PostDelisted = 8,
+	},
+	ClubFinderClubPostingStatusFlagsMeta = {
+		MinValue = 0,
+		MaxValue = 8,
+		NumValues = 9,
+	},
 	ClubFinderDisableReason = {
 		Muted = 0,
 		Silenced = 1,
@@ -867,6 +883,14 @@ Enum = {
 		MinValue = 0,
 		MaxValue = 2,
 		NumValues = 3,
+	},
+	ItemInteractionFrameType = {
+		CleanseCorruption = 0,
+	},
+	ItemInteractionFrameTypeMeta = {
+		MaxValue = 0,
+		MinValue = 0,
+		NumValues = 1,
 	},
 	ItemQuality = {
 		Poor = 0,
@@ -1671,10 +1695,10 @@ LE_EXPANSION_WRATH_OF_THE_LICH_KING = 2
 LE_EXPANSION_CATACLYSM = 3
 LE_EXPANSION_MISTS_OF_PANDARIA = 4
 LE_EXPANSION_WARLORDS_OF_DRAENOR = 5
-LE_EXPANSION_LEVEL_PREVIOUS = 6
 LE_EXPANSION_LEGION = 6
-LE_EXPANSION_LEVEL_CURRENT = 7
+LE_EXPANSION_LEVEL_PREVIOUS = 6
 LE_EXPANSION_BATTLE_FOR_AZEROTH = 7
+LE_EXPANSION_LEVEL_CURRENT = 7
 LE_EXPANSION_9_0 = 8
 LE_EXPANSION_10_0 = 9
 LE_EXPANSION_11_0 = 10
@@ -1707,7 +1731,7 @@ LE_FOLLOWER_TYPE_SHIPYARD_6_2 = 2
 LE_FOLLOWER_TYPE_GARRISON_7_0 = 4
 LE_FOLLOWER_TYPE_GARRISON_8_0 = 22
 
-NUM_LE_FRAME_TUTORIALS = 75
+NUM_LE_FRAME_TUTORIALS = 76
 LE_FRAME_TUTORIAL_TALENT = 1
 LE_FRAME_TUTORIAL_SPEC = 2
 LE_FRAME_TUTORIAL_GLYPH = 3
@@ -1783,6 +1807,7 @@ LE_FRAME_TUTORIAL_CLUB_FINDER_NEW_APPLICANTS_GUILD_LEADER = 72
 LE_FRAME_TUTORIAL_CLUB_FINDER_LINKING = 73
 LE_FRAME_TUTORIAL_PVP_SPECIAL_EVENT = 74
 LE_FRAME_TUTORIAL_WORLD_MAP_THREAT_ICON = 75
+LE_FRAME_TUTORIAL_CORRUPTION_CLEANSER = 76
 
 NUM_LE_FRAME_TUTORIAL_ACCCOUNTS = 2
 LE_FRAME_TUTORIAL_ACCCOUNT_RAF_INTRO = 1
