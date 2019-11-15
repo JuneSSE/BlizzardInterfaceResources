@@ -281,6 +281,16 @@ Enum = {
 		MaxValue = 3,
 		NumValues = 4,
 	},
+	CalendarHolidayFilterType = {
+		Weekly = 0,
+		Darkmoon = 1,
+		Battleground = 2,
+	},
+	CalendarHolidayFilterTypeMeta = {
+		MinValue = 0,
+		MaxValue = 2,
+		NumValues = 3,
+	},
 	CalendarInviteBits = {
 		CalendarInviteBitPendingInvite = 1,
 		CalendarInviteBitModerator = 2,
@@ -816,6 +826,17 @@ Enum = {
 		MinValue = 0,
 		MaxValue = 2,
 		NumValues = 3,
+	},
+	HolidayFlags = {
+		IsRegionwide = 1,
+		DontShowInCalendar = 2,
+		DontDisplayEnd = 4,
+		DontDisplayBanner = 8,
+	},
+	HolidayFlagsMeta = {
+		MinValue = 1,
+		NumValues = 4,
+		MaxValue = 8,
 	},
 	IconAndTextWidgetState = {
 		Hidden = 0,

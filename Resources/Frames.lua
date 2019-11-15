@@ -242,6 +242,7 @@ local Frames = {
 	"InterfaceOptionsFrame",
 	"IslandsPartyPoseFrame",
 	"IslandsQueueFrame",
+	"ItemInteractionFrame",
 	"ItemRefShoppingTooltip1",
 	"ItemRefShoppingTooltip2",
 	"ItemRefTooltip",

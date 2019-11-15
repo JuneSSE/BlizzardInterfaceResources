@@ -778,8 +778,6 @@ local WidgetAPI = {
 			"SetAnchorType",
 			"SetArtifactItem",
 			"SetArtifactPowerByID",
-			"SetAuctionItem",
-			"SetAuctionSellItem",
 			"SetAzeriteEssence",
 			"SetAzeriteEssenceSlot",
 			"SetAzeritePower",
