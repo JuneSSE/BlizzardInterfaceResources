@@ -1277,8 +1277,8 @@ Enum = {
 	},
 	StoreErrorMeta = {
 		MinValue = 0,
-		MaxValue = 11,
-		NumValues = 12,
+		MaxValue = 12,
+		NumValues = 13,
 	},
 	SummonStatus = {
 		None = 0,
