@@ -2929,6 +2929,7 @@ local FrameXML = {
 	"GetFactionColor",
 	"GetFinalNameFromTextureKit",
 	"GetFixedLink",
+	"GetFormattedItemQuantity",
 	"GetFrameHandle",
 	"GetFrameHandleFrame",
 	"GetFriendInfo",
