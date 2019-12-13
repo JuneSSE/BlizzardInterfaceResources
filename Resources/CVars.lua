@@ -385,6 +385,7 @@ local CVars = {
 		["clubFinderCacheExpiry"] = {"1000", 4, false, false, "Value in (MS) for time to expire the cache."},
 		["clubFinderCachePendingExpiry"] = {"5000", 4, false, false, "Value in (MS) for time to expire the cache."},
 		["clubFinderPlayerSettings"] = {"1", 4, false, true, "Bit field of Looking for guild player settings"},
+		["Collision"] = {"0", 5, false, false, ""},
 		["colorblindMode"] = {"0", 4, true, false, "Enables colorblind accessibility features in the game"},
 		["colorblindSimulator"] = {"0", 1, false, false, "Type of color blindness"},
 		["colorblindWeaknessFactor"] = {"0.5", 1, false, false, "Amount of sensitivity. e.g. Protanope (red-weakness) 0.0 = not colorblind, 1.0 = full weakness(Protanopia), 0.5 = mid weakness(Protanomaly)"},

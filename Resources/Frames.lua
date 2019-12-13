@@ -334,7 +334,6 @@ local Frames = {
 	"PlayerReportFrame",
 	"PlayerTalentFrame",
 	"PrestigeLevelUpBanner",
-	"ProductChoiceFrame",
 	"PvPCommentator",
 	"PvPObjectiveBannerFrame",
 	"QuestChoiceFrame",

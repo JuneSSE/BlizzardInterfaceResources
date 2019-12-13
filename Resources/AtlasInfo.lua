@@ -5657,6 +5657,9 @@ local AtlasInfo = {
 	["interface/store/shopcard15thanniversary"] = { -- 3032792
 		["shop-card-full-15thAnniversary"] = {568, 463, 0.0009765625, 0.5556640625, 0.001953125, 0.90625, false, false},
 	},
+	["interface/store/shopcardblizzcon2020virtualticket"] = { -- 3288061
+		["shop-card-full-blizzconvirtualticket2020"] = {568, 463, 0.0009765625, 0.5556640625, 0.001953125, 0.90625, false, false},
+	},
 	["interface/store/shopfeatured"] = { -- 2923780
 		["store-card-splash1-nobanner"] = {576, 471, 0.0009765625, 0.5634765625, 0.001953125, 0.921875, false, false},
 	},

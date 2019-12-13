@@ -206,11 +206,15 @@ Enum = {
 		CalendarErrorInvalidDescription = 44,
 		CalendarErrorInvalidClub = 45,
 		CalendarErrorCreatorNotFound = 46,
+		CalendarErrorEventThrottled = 47,
+		CalendarErrorInviteThrottled = 48,
+		CalendarErrorInternal = 49,
+		CalendarErrorComplaintAdded = 50,
 	},
 	CalendarErrorTypeMeta = {
 		MinValue = 0,
-		MaxValue = 46,
-		NumValues = 47,
+		MaxValue = 50,
+		NumValues = 51,
 	},
 	CalendarEventBits = {
 		CalendarEventBitPlayer = 1,
@@ -272,13 +276,13 @@ Enum = {
 	},
 	CalendarGetEventType = {
 		Get = 0,
+		DefaultCalendarGetEventType = 0,
 		Add = 1,
 		Copy = 2,
-		DefaultCalendarGetEventType = 3,
 	},
 	CalendarGetEventTypeMeta = {
 		MinValue = 0,
-		MaxValue = 3,
+		MaxValue = 2,
 		NumValues = 4,
 	},
 	CalendarHolidayFilterType = {
@@ -537,11 +541,12 @@ Enum = {
 	ClubFinderDisableReason = {
 		Muted = 0,
 		Silenced = 1,
+		VeteranTrial = 2,
 	},
 	ClubFinderDisableReasonMeta = {
 		MinValue = 0,
-		MaxValue = 1,
-		NumValues = 2,
+		MaxValue = 2,
+		NumValues = 3,
 	},
 	ClubFinderPostingReportType = {
 		PostersName = 0,
