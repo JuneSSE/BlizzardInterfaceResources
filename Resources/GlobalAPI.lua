@@ -252,6 +252,7 @@ local GlobalAPI = {
 	"C_AuctionHouse.GetReplicateItemInfo",
 	"C_AuctionHouse.GetReplicateItemLink",
 	"C_AuctionHouse.GetReplicateItemTimeLeft",
+	"C_AuctionHouse.GetTimeLeftBandInfo",
 	"C_AuctionHouse.HasFavorites",
 	"C_AuctionHouse.HasFullBidResults",
 	"C_AuctionHouse.HasFullBrowseResults",

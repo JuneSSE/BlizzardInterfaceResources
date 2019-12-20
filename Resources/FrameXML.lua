@@ -1270,6 +1270,7 @@ local FrameXML = {
 	"CinematicFrame_HideSubtitle",
 	"CinematicFrame_OnDisplaySizeChanged",
 	"CinematicFrame_OnEvent",
+	"CinematicFrame_OnHide",
 	"CinematicFrame_OnKeyDown",
 	"CinematicFrame_OnLoad",
 	"CinematicFrame_OnShow",
