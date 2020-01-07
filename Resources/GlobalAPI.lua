@@ -4486,4 +4486,4 @@ local LuaAPI = {
 	"xpcall",
 }
 
-return GlobalAPI, LuaAPI
+return {GlobalAPI, LuaAPI}
