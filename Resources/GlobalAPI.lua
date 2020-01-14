@@ -1137,6 +1137,7 @@ local GlobalAPI = {
 	"C_Item.UnlockItem",
 	"C_Item.UnlockItemByGUID",
 	"C_ItemInteraction.ClearPendingItem",
+	"C_ItemInteraction.CloseUI",
 	"C_ItemInteraction.GetItemInteractionInfo",
 	"C_ItemInteraction.GetItemInteractionSpellId",
 	"C_ItemInteraction.InitializeFrame",
